@@ -39,3 +39,43 @@ The focus is on integrating an ML model into a production-style web interface.
 
 git clone https://github.com/Venkat-Sai-Charan-Saragan/House-Price-Prediction_System.git
 cd House-Price-Prediction_System
+
+
+### 2. Create and activate a virtual environment (recommended)
+
+python -m venv venv
+venv\Scripts\activate # on Windows
+
+source venv/bin/activate # on Linux/Mac
+
+
+### 3. Install dependencies
+
+pip install -r requirements.txt
+
+
+### 4. Run the application
+
+python main.py
+
+
+Open the app in your browser:
+
+http://127.0.0.1:5000/
+
+Choose the property details and click **Predict Price** to see the model’s prediction.
+
+## Technologies Used
+
+- **Backend:** Python, Flask  
+- **Machine Learning:** scikit-learn (Ridge Regression), pandas  
+- **Frontend:** HTML, CSS, JavaScript, Jinja2 templates
+
+## Possible Improvements
+
+- Add model training notebook and scripts to the repo.
+- Add form validation and better error handling on the frontend.
+- Containerize the app with Docker for easier deployment.
+- Deploy to a cloud platform (Render, Railway, Heroku alternative, etc.).
+
+
