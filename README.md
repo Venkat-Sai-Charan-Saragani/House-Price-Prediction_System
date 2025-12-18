@@ -37,3 +37,5 @@ The focus is on integrating an ML model into a production-style web interface.
 
 ### 1. Clone the repository
 
+git clone https://github.com/Venkat-Sai-Charan-Saragan/House-Price-Prediction_System.git
+cd House-Price-Prediction_System
